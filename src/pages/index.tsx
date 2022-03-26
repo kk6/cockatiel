@@ -1,12 +1,12 @@
-import { Box } from '@chakra-ui/layout'
 import type { NextPage } from 'next'
-import { Editor } from '@/components/editor'
+import { Editor } from '@/components/Editor'
+import { Layout } from '@/components/Layout'
 
 const Home: NextPage = () => {
   return (
-    <Box maxW="960px">
+    <Layout>
       <Editor />
-    </Box>
+    </Layout>
   )
 }
 
